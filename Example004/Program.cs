@@ -6,6 +6,6 @@ int n = -a;
 
 while (n <= a)
 {
-    Write(n);
+    Write($"{n} ");
     n = n+1;
 }
