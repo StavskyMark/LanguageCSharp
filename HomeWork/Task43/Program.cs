@@ -1,5 +1,10 @@
-﻿Console.Write("Введите элементы(через пробел): ");
-int[] arr = Array.ConvertAll(Console.ReadLine().Split(), int.Parse);
+﻿using static System.Console;
+Clear();
+
+
+
+Write("Введите элементы через пробел: ");
+int[] arr = Array.ConvertAll(ReadLine().Split(), int.Parse);
 
  int CountNull()
 {
@@ -12,4 +17,4 @@ for (int i = 0; i < arr.Length; i++)
     }
 }
 }
-Console.WriteLine($"Кол-во элементов > 0: {count}");
+WriteLine($"Кол-во элементов > 0: {count}");
