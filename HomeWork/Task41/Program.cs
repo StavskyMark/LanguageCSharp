@@ -12,7 +12,7 @@ int b2 = int.Parse(ReadLine());
  
  
 int x = (b1 - b2) / (k1 - k2);
-int y = k1 * x + b1;
+int y = k1 * x + b1 || y = k2 * x + b2;
  
 x = Math.Round(x, 3);
 y = Math.Round(y, 3);
